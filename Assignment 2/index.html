@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link rel="stylesheet" href="register.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+     
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <div class="back">
+        <div class="fluid-jumbotron">
+            <img src="logo.png">     
+            <p>Computer Science And Technology Department.</p>
+         </div> 
+        
+    <div class="navbar">
+         <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="https://www.unigoa.ac.in/goa-university-vacancies-listing.php">Vacancies</a></li>
+              <li><a href="https://www.unigoa.ac.in/systems/c/admissions/announcementsnotices.html">Admissions</a></li>
+              <li><a href="https://www.unigoa.ac.in/goa-university-contact-us.php">Contact Us</a></li>
+            </ul>
+          </div>
+        </nav>
+    </div>  
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+  
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="c1.jpg" alt="c1" style="width:100%;">
+        </div>
+  
+        <div class="item">
+          <img src="c2.jpg" alt="c2" style="width:100%;">
+        </div>
+      
+        <div class="item">
+          <img src="c3.jpg" alt="c3" style="width:100%;">
+        </div>
+      </div>
+  
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    
+
+    <!-- <div class="container2">
+      <div class="detailsofcourse">
+      <p>The Department of Computer Science and Technology at Goa University is one of the premier departments in the country,<br> offering undergraduate, postgraduate, and research programs in computer science and related fields. <br>The department was established in 1986 and has since been at the forefront of research and education in the field of computer science.<br><br>
+
+          The department has a strong faculty team of professors and researchers who are actively involved in cutting-edge research <br> in areas such as artificial intelligence, data science, machine learning, computer networks, software engineering, and more.<br> The faculty regularly publish their research findings in top-tier conferences and journals.<br><br>
+          
+          The department has state-of-the-art infrastructure, including modern computer labs equipped with the latest software and hardware. <br>The department also has a well-stocked library with a vast<br> collection of books, journals, and research papers in computer science and related fields.<br><br>
+          
+          The department has collaborations with several renowned institutions and industries in India and abroad, <br> which provides opportunities for students to work on real-world projects and gain practical experience.<br> The department also organizes workshops, seminars, and conferences on emerging topics in computer science, providing a platform for students to learn from experts in the field.<br><br>
+          
+          Overall, the Department of Computer Science and Technology at Goa University is committed to providing quality education and research opportunities to its students, preparing them for successful careers in the field of computer science and technology.</p>
+      </div>
+    </div> -->
+                 
+  <div class="container">
+    <div class="gu"><h1>Goa University</h1></div>
+    <div class="title">CST-Registraion</div>
+    <div class="content">
+      <form action="details.html" id="#myForm">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" id="fullname" placeholder="-----" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Username</span>
+            <input type="text" id="username" placeholder="-----" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="email" id="email" placeholder="-----" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" id="phonenumber" placeholder="-----" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Address</span>
+            <input type="text" id="address" placeholder="-----" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Name of Your Previous college</span>
+            <input type="text" id="cllgname" placeholder="-----" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input type="password" id="password" placeholder="-----" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Confirm Password</span>
+            <input type="password" id="cpassword" placeholder="-----" required>
+          </div>
+        </div>
+
+        <div class="gender-details">
+          <input type="radio" name="gender" id="dot-1">
+          <input type="radio" name="gender" id="dot-2">
+          <input type="radio" name="gender" id="dot-3">
+          <span class="gender-title">Gender</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender">Male</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender">Female</span>
+          </label>
+          <!-- <label for="dot-3">
+            <span class="dot three"></span>
+            <span class="gender">Prefer not to say</span>
+            </label> -->
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Register" name="submit" onclick="checkpassword()">
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+
+<script src="./form.js"></script>
+
+</body>
+</html>
